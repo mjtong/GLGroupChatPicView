@@ -11,7 +11,7 @@
 @interface GLGroupChatPicView : UIView
 @property (nonatomic, assign) NSUInteger totalEntries;
 
-- (void)addImage:(UIImage *)image withInitials:(NSString *)initials;
+- (void)addImage:(NSString *)image withInitials:(NSString *)initials;
 - (void)updateLayout;
 - (void)reset;
 @end
