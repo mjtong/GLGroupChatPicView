@@ -30,7 +30,8 @@ THE SOFTWARE.
 	spec.summary	= 'GLGroupChatPicView Inspired by https://dribbble.com/shots/1178958-Chat-Concept-2'
 	spec.source	= { :git => 'https://github.com/premosystems/GLGroupChatPicView.git', :commit => '66576f4e596436658bdf7b088533f43eaf6760db' }
 	spec.requires_arc = true
-    
+    	spec.dependency = 'BSTiledImageView', :git => 'git@bitbucket.org:boolalsofware/bstiledimageview.git'
+
 	spec.ios.deployment_target = '7.0'
     
 	# spec.resource = 'GLGroupChatPicView.podspec'
